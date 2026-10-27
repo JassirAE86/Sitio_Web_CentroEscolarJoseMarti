@@ -119,14 +119,29 @@ h1 {
 }
 /*imagen de la escuela de el inicio*/
 .ilustracion {
-  min-height: 360px;
-  background: linear-gradient(140deg, hsl(0, 0%, 100%), #fbfdfd);
+  width: 100%;
+  min-height: auto;
+  background: linear-gradient(140deg, #ffffff, #fbfdfd);
   border-radius: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 100px;
+  box-sizing: border-box;
+}
+
+.imagen {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.imagen-escuela {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
 }
 
 .ilustracion span {
